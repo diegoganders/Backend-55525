@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon Clase6.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoganders/Backend-55525.git"
+  },
+  "author": "Diego Anders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoganders/Backend-55525/issues"
+  },
+  "homepage": "https://github.com/diegoganders/Backend-55525#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

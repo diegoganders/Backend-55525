@@ -7,6 +7,9 @@ node_modules
 # Ignora las clases
 Clase2.js
 AndersDiego.js
+Clase5.js
+Desafio-Anders.zip
+Clase6.js
 
 # Ignora los archivos relacionados a API keys
 .env

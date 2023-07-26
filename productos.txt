@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "title": "Producto 1",
+    "price": 10,
+    "thumbnail": "url1",
+    "id": 1
+  },
+  {
+    "title": "Producto 2",
+    "price": 20,
+    "thumbnail": "url2",
+    "id": 2
+  }
+]

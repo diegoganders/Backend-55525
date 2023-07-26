@@ -81,8 +81,6 @@ class Contenedor {
   }
 }
 
-module.exports = Contenedor;
-
 // Prueba del módulo
 (async () => {
   const contenedor = new Contenedor('productos.txt');
@@ -100,7 +98,7 @@ module.exports = Contenedor;
     thumbnail: 'url2'
   };
 
-/*   const id1 = await contenedor.save(objeto1);
+  const id1 = await contenedor.save(objeto1);
   console.log(`Se ha guardado el objeto con ID: ${id1}`);
 
   const id2 = await contenedor.save(objeto2);
@@ -108,13 +106,13 @@ module.exports = Contenedor;
 
   // Obtener objeto por ID
   const objetoObtenido = await contenedor.getById(id1);
-  console.log('Objeto obtenido:', objetoObtenido); */
+  console.log('Objeto obtenido:', objetoObtenido);
 
   // Obtener todos los objetos
   const todosLosObjetos = await contenedor.getAll();
   console.log('Todos los objetos:', todosLosObjetos);
 
-/*   // Eliminar objeto por ID
+  // Eliminar objeto por ID
   await contenedor.deleteById(id1);
   console.log(`Se ha eliminado el objeto con ID: ${id1}`);
 
@@ -124,5 +122,5 @@ module.exports = Contenedor;
 
   // Eliminar todos los objetos
   await contenedor.deleteAll();
-  console.log('Se han eliminado todos los objetos'); */
+  console.log('Se han eliminado todos los objetos');
 })();
