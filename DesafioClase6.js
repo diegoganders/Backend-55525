@@ -7,7 +7,7 @@ const port = 8080;
 
 const contenedor = new Contenedor('productos.txt');
 
-// Ruta get '/productos' que devuelve todos los productos disponibles en el servidor
+// Aca devuelvo todos los productos disponibles
 app.get('/productos', async (req, res) => {
   try {
     const productos = await contenedor.getAll();
@@ -17,7 +17,7 @@ app.get('/productos', async (req, res) => {
   }
 });
 
-// Ruta get '/productoRandom' que devuelve un producto elegido al azar entre todos los productos disponibles
+// Acá devuelvo un producto random
 app.get('/productoRandom', async (req, res) => {
   try {
     const productos = await contenedor.getAll();
@@ -28,7 +28,7 @@ app.get('/productoRandom', async (req, res) => {
   }
 });
 
-// Iniciar el servidor
+// inicio el server
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);
 });
